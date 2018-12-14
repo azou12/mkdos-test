@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh '''mkdos build
+        sh '''mkdocs build
 
 '''
       }
