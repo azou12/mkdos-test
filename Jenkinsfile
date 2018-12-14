@@ -5,18 +5,6 @@ pipeline {
       steps {
         sh '''mkdocs build
 
-
-
-ls -l _site/
-
-
-
-
-
-
-
-
-
 '''
       }
     }
