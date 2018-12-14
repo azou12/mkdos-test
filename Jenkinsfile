@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'squidfunk/mkdocs-material'
       args '-v $WORKSPACE:/docs --entrypoint bash'
+      image 'python 2.7'
     }
 
   }
